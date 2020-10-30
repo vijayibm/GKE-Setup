@@ -5,7 +5,7 @@
 
 Role Name
 =========
-gke
+##gke
 
 A brief description of the role goes here.
 
@@ -13,9 +13,15 @@ Requirements
 ------------
 The GCP modules require both the requests and the google-auth libraries to be installed.
 install pip for RHEL / CentOS
-``` $ sudo yum install python-pip3 ```
-``` $ pip3 install requests google-auth ```
-``` $ pip3 install requests google-auth ```
+``` 
+$ sudo yum install python-pip3 
+```
+``` 
+$ pip3 install requests google-auth 
+```
+``` 
+$ pip3 install requests google-auth 
+```
 
 Role Variables
 --------------

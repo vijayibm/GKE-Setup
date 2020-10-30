@@ -29,8 +29,8 @@ Dependencies
 ------------
 To work with the GCP modules, you’ll first need to get some credentials in the JSON format:
 
-### Create a Service Account(https://developers.google.com/identity/protocols/oauth2/service-account#creatinganaccount)
-### Download JSON credentials(https://support.google.com/cloud/answer/6158849?hl=en&ref_topic=6262490#serviceaccounts)
+#### [Create a Service Account](https://developers.google.com/identity/protocols/oauth2/service-account#creatinganaccount)
+#### [Download JSON credentials](https://support.google.com/cloud/answer/6158849?hl=en&ref_topic=6262490#serviceaccounts)
 
 
 Example Playbook

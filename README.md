@@ -38,11 +38,12 @@ Example Playbook
 
 Including an example of how to use your role (for instance, with variables passed in as parameters) is always nice for users too:
 
-    - hosts: servers
+    - name: Creates a GKE Cluster
+      hosts: localhost
+      connection: local
+      gather_facts: false
       roles:
-         - { role: username.rolename, x: 42 }
-
-BSD
+        - gke
 
 Author Information
 ------------------

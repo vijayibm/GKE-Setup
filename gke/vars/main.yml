@@ -1,0 +1,15 @@
+# vars file for gke
+gkename: gkecluster
+initial_node_count: 2
+username: cluster-admin
+password: my-secret-password
+machine_type: n1-standard-1
+disk_size_gb: 100
+gcp_project: green-antonym-286106
+gcp_cred_kind: serviceaccount
+gcp_cred_file: /root/gcp_provision/green-antonym-286106-2b1c5ae048d2.json
+zone: "us-central1-a"
+region: "us-central1"
+# gke node pool
+npname: gkecluster-pool
+np_initial_node_count: 3

@@ -1,0 +1,6 @@
+- name: Creates a GKE Cluster
+  hosts: localhost
+  connection: local
+  gather_facts: false
+  roles:
+    - gke
